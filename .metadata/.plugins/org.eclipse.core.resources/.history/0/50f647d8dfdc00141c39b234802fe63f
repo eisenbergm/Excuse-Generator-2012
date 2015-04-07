@@ -1,0 +1,26 @@
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Scanner;
+
+public class excusesHashMap {
+
+	static HashMap<Integer, String> excuseMap = new HashMap<Integer, String>();
+	Scanner input = new Scanner(System.in);
+	int severity;
+	String excuse;
+	
+	//
+	public static void buildList(int uhoh)
+	{
+		excuseMap.clear();
+		//i don't know how to fileIO
+	}
+	
+	//function used in GUI to add excuses
+	public static void newExcuse(int sev, String exc)
+	{
+		excuseMap.put(sev, exc);
+	}
+}
