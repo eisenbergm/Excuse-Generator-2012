@@ -1,0 +1,39 @@
+3,I was abducted by aliens.
+2,I don't speak whatever language that is.
+1,I had to take my daughter to see the Hunger Games.
+3,I missed my flight.
+3,I made my flight but it was the wrong one.
+1,They mistook me for a terrorist and detained me.
+1,I forgot to set my alarm clock.
+1,I set my alarm clock but it was not plugged in.
+1,My alarm clock was recalled.
+2,Today is a religious holiday for my religion;________.
+3,They thought my iPad was a bomb and made me get off the plane.
+1,My GPS is out of warranty.
+2,I have DDS; (Directional Dysfunction Syndrome.)
+1,I didn't know what day it was because I was looking at the Mayan Calender.
+2,I locked my keys in my car.
+2,My wife wouldn't let me out of the house.
+3,She looked 18 to me.
+2,I had temporary amnesia.
+3,I was captured by terrorists.
+2,I couldn't find my keys.
+2,I'm schizophrenic and my other personality is a flake.
+1,I had other priorities.
+1,I have severe acid reflux.
+3,Bitch set me up.
+3,I don't think anybody anticipated the breach of the levees.
+3,I'm 72 years old. I'm dyslexic.
+2,I don't know what a NullPointerException even is.
+1,It compiled on my computer.
+1,I had to update Java.
+1,My laptop was dead.
+2,I can't find the missing parantheses.
+3,My keyboard is missing the semicolon key.
+2,The function I thought I was using was deprecated.
+3,It didn't work when I turned it on and off again.
+1,Sorry.
+2,I'm like really sorry.
+3,I'm seriously so sorry.
+3,Oh my god I can't even.
+2,I couldn't get my triple venti half-sweet non-fat carmel machiato.
