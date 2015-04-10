@@ -27,7 +27,7 @@ public class main {
 	}
 
 	public static void main(String[] args) {
-		HashMap<String, ArrayList<String>> excuses = new HashMap<String, ArrayList<String>>();
+		HashMap<Integer, ArrayList<String>> excuses = new HashMap<Integer, ArrayList<String>>();
 		
 		File f = null;
 	    String path = "";
@@ -52,7 +52,7 @@ public class main {
 	          while(inputStream.hasNextLine()){
 	              line = inputStream.nextLine();
 	              String[] parts = line.split(",");
-	        	  String intensity = parts[0];
+	        	  Integer intensity = Integer.parseInt(parts[0]);
 	        	  String excuseItem = parts[1];
 	        	  ArrayList<String> list = excuses.get(intensity);
 	        	  if (list == null) {
@@ -65,15 +65,15 @@ public class main {
 	          inputStream.close();
 	       }
 	       
-	    Set<Entry<String, ArrayList<String>>> setMap = excuses.entrySet();
-	    Iterator<Entry<String,  ArrayList<String>>> iteratorMap = setMap.iterator();
+	    Set<Entry<Integer, ArrayList<String>>> setMap = excuses.entrySet();
+	    Iterator<Entry<Integer,  ArrayList<String>>> iteratorMap = setMap.iterator();
 	    
 	    
 	    System.out.println("All data:\n--------------------");
         while(iteratorMap.hasNext()) {
-        	Map.Entry<String, ArrayList<String>> entry = 
-        			(Map.Entry<String, ArrayList<String>>) iteratorMap.next();
-            String key = entry.getKey();
+        	Entry<Integer, ArrayList<String>> entry = 
+        			(Map.Entry<Integer, ArrayList<String>>) iteratorMap.next();
+            Integer key = entry.getKey();
             List<String> values = entry.getValue();
             System.out.println("Intensity: " + key);
             System.out.println("Excuses:");
