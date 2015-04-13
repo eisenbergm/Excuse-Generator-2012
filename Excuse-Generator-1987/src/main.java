@@ -6,11 +6,27 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.Random;
 import java.util.Scanner;
 import java.util.Set;
 
 public class main {
 	static HashMap<Integer, ArrayList<String>> excuses = new HashMap<Integer, ArrayList<String>>();
+	
+	public static int randInt(int max) {
+		int min = 0;
+		max=max -1;
+
+	    // NOTE: Usually this should be a field rather than a method
+	    // variable so that it is not re-seeded every call.
+	    Random rand = new Random();
+
+	    // nextInt is normally exclusive of the top value,
+	    // so add 1 to make it inclusive
+	    int randomNum = rand.nextInt((max - min) + 1) + min;
+
+	    return randomNum;
+	}
 	
 	@SuppressWarnings("unchecked")
 	public static <T> void removeDuplicate(List <T> list) {
@@ -24,6 +40,14 @@ public class main {
 	    }
 	    list.clear();
 	    list.addAll(newList);
+	}
+	
+	public static String getExcuse(int intensity) {
+		ArrayList<String> list = excuses.get(intensity);
+		int size = list.size();
+		int stringKey = randInt(size);
+		return list.get(stringKey);
+		
 	}
 	
 	public static void removeBlankLines() throws IOException {
@@ -182,17 +206,6 @@ public class main {
 	       e.printStackTrace();
 	    }
 	    
-	    try {
-			removeBlankLines();
-		} catch (IOException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
-		}
-	    try {
-			removeExcuse(3,"lkjs");
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+	    System.out.print(getExcuse(3));
 	}
 }
