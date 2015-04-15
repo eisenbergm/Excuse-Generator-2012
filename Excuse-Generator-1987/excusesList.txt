@@ -15,14 +15,12 @@
 2,I locked my keys in my car.
 2,My wife wouldn't let me out of the house.
 3,She looked 18 to me.
-2,I had temporary amnesia.
 3,I was captured by terrorists.
 2,I couldn't find my keys.
 2,I'm schizophrenic and my other personality is a flake.
 1,I had other priorities.
 1,I have severe acid reflux.
 3,Bitch set me up.
-3,I don't think anybody anticipated the breach of the levees.
 3,I'm 72 years old. I'm dyslexic.
 2,I don't know what a NullPointerException even is.
 1,It compiled on my computer.
@@ -37,4 +35,13 @@
 3,I'm seriously so sorry.
 3,Oh my god I can't even.
 2,I couldn't get my triple venti half-sweet non-fat carmel machiato.
-2,blahblah
+2,I had temporary amnesia.
+1,blahblah
+2,My mother told me she didn't love me
+1,My computer is died
+1,I like to eat glass
+1,I had to eat broccoli last night.
+3,I was kidnapped by the rare flower cartel
+3,KAWAIII!!!111 Desu ne???
+3,I don't think anybody anticipated the breach of the levees.
+3,I had a run-in with Saddam Hussein.
